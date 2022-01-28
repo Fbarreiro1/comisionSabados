@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+nav {
+	padding: 10px;
+	padding-top: 20px;
+	
+	
+}
+ul{
+	margin: 0;
+	padding: 15px;
+	padding-top: 25px;
+	margin-left: 55%;
+	text-decoration-line: none;
+	
+}
+li{
+	display: inline-block;
+	padding: 10px;
+	background-color: #011640;
+	border: 1px #8C3F46 solid;
+	
+	
+}
+ li:nth-of-type(1) {
+	color:#8C3F46;
+	position: absolute;
+	left: 10%;
+}
+a {
+	text-decoration: none;
+	color: #8C3F46;
+	font-size: large;
+}
+h1 {
+	margin-top: 60px;
+	text-align: center;
+
+}
+h3 {
+	margin: 0;
+}
+header{
+	color: #8C3F46;
+	background-color: #011640;
+	border: 1px #011640 solid;
+	background-image:url("../images/aaron-burden-QJDzYT_K8Xg-unsplash.jpg");
+	background-size: cover;
+	background-position-x: right;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+.buscador{
+	margin-top: 0;
+	height: 300px;
+	padding: 30px;
+	text-align: center;
+	
+	
+}
+.buscador input {
+	border-radius: 5px;
+	color: #8C3F46;
+	background-color: #011640;
+	border: 1px #8C3F46 solid;
+	width: 300px;
+	height: 22px;
+}
+::placeholder {
+	color: #8C3F46;
+}
+.buscador button{
+	color: #8C3F46;
+	background-color: #011640;
+	border: 1px #8C3F46 solid;
+}
+
+.buscarCatalogo{
+	display: inline-block;
+	padding:0;
+	height: 250px;
+	border: 1px #8C3F46 solid;
+	border-bottom: none;
+	text-align: center;
+	color: #011640;
+	background-color: #8C3F46;
+	border: 1px #8C3F46 solid;}
+
+.buscarLibro{
+		border: 1px #8C3F46 solid;
+		border-bottom: none;
+		text-align: center;
+		color: #8C3F46;
+		background-color: #011640 ;
+		border: 1px #8C3F46 solid;}
+
+.comprar{
+	padding-left:30px;
+	text-align: left;
+	color: #8C3F46;
+	background-color: #011640;
+	border: 1px #8C3F46 solid;
+
+	
+}
+button {
+	width: 150px;
+	height: 30px;
+}
+.comprar button{
+	position: relative;
+	bottom:50px;
+	left: 65%;
+	color: #8C3F46;
+	background-color: #011640;
+	border: 1px #8C3F46 solid;
+}
+.imgbuscarCatalogo img{
+	width: 80px;
+	height: 80px;
+	padding:0 10px 0 10px;
+	margin: 10px;
+	}
+.img-libros img{
+display: inline-block;
+width: 200px;
+height: 250px;
+
+}
+
+.tarjeta {
+	margin: auto 15px auto 15px;
+	padding-top: 10px;
+	position:relative;
+	bottom:10px;
+	display: inline-block;
+	width: 250px;
+	height: 280px;
+	border: 1px #8C3F46 solid;
+	
+}
+
+.imgbuscarCatalogo .tarjeta {
+	height: 150px;
+	margin: 0;
+	padding:0 10px 0 10px;
+	border: none;
+}
+footer{
+	background-color: #011640;
+	
+	height: 150px;
+	
+}
+footer img{
+	
+	height:50px;
+	width: 50px;
+	padding: 20px;
+	padding-bottom: 0;
+}
+footer li {
+	border:none;
+}
